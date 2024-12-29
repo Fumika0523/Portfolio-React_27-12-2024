@@ -16,14 +16,16 @@ const About = () => {
             </div>
             <div className="about-right">
                 <div className="about-para">
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, </p>
-                    <p>remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                    {/* <p>I'm Full Stack Solution Architect The crossover between design and programming has always been of interest to me, I've been lucky enough to work alongside some talented teams on a number of high profile websites. I have a wide range of skills that include back-end development using open source technologies (NodeJs), design (working closely with designers), front-end development (React, ReactJs, HTML5, CSS3, Javascript, Responsive, UX),database(MongoDB,Mysql) </p> */}
+                    <p>I am an experienced Frontend Developer with over a decade of professional expertise in the field. Throughout my career, I have had the privilege of collaborating with prestigious organizations, contributing to their success and growth.</p>
+                    {/* <p>remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p> */}
                 </div>
                 <div className="about-skills">
                     <div className="about-skill"><p>HTML & CSS</p><hr style={{width:"50%"}}/></div>
                     <div className="about-skill"><p>React JS</p><hr style={{width:"70%"}}/></div>
                     <div className="about-skill"><p>JavaScript</p><hr style={{width:"60%"}}/></div><div className="about-skill"><p>NodeJS</p><hr style={{width:"50%"}}/></div>
-                    <div className="about-skill"><p>MongoDB & Mysql</p><hr style={{width:"60%"}}/></div>
+                    <div className="about-skill"><p>MongoDB</p><hr style={{width:"60%"}}/></div>
+                    <div className="about-skill"><p> MySQL</p><hr style={{width:"60%"}}/></div>
                 </div>
             </div>
         </div>

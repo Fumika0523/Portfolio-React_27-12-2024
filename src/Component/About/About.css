@@ -34,3 +34,74 @@
     flex-direction:column;
     gap:80px;
 }
+
+.about-para{
+    font-size:24px;
+    font-weight:500;
+}
+
+.about-skills{
+    display: flex;
+    flex-direction: column;
+    gap:20px
+}
+.about-skill{
+    display:flex;
+    align-items: center;
+    gap: 50px;
+    transition: 0.3s;
+}
+
+.about-skill p{
+    min-width: 150px;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.about-skill hr{
+    outline:none;
+    border:none;
+    width:50%;
+    margin-left:5%;
+    height:8px;
+    border-radius:50px;
+    background:linear-gradient(260deg,#DF8908 10%, #B415FF 100%);
+}
+
+.about-achivements{
+    display:flex;
+    width:100%;
+    justify-content: space-around;
+    margin-bottom: 80px;
+}
+
+about-achivemenet{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition:0.5s
+}
+
+.about-achivements h1{
+    font-size: 60px;
+    background: linear-gradient(270deg,#DF8908 10%, #B415FF 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color:transparent;
+    /* font-weight: 700; */
+}
+
+.about-achivemenets p{
+    font-size: 23px;
+    font-weight: 500;
+}
+
+.about-skill:hover{
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+
+.about-achivemenet:hover{
+    transform: scale(1.15);
+    transition: 0.5s;
+}
