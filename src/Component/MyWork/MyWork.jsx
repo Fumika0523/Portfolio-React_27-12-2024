@@ -9,9 +9,8 @@ const MyWork = () => {
     <>
     <div className="mywork">
         <div className="mywork-title">
-        <div className="my-title">
             <h1>My latest work</h1>
-            <img src="" alt="" />
+            <img src={theme_pattern} alt="" />
         </div>
         <div className="mywork-container">
             {
@@ -19,10 +18,12 @@ const MyWork = () => {
                 return <img ky={index} src={work.w_img} alt="" />
             })}
         </div>
+        <div className='mywork-showmore'>
+          <p>Show More</p>
+          <img src={arrow_icon} alt="" />
+        </div>
         <div>
-            
-        </div>
-        </div>
+      </div>
     </div>
     </>
 )
