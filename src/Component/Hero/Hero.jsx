@@ -1,11 +1,11 @@
 import React from 'react'
 import './Hero.css'
-import profile_img from '../../assets/profile_img.svg'
+import Profile_Icon from '../../assets/Profile_Icon.png'
 
 const Hero = () => {
   return (
     <div className='hero'>
-        <img src={profile_img} alt="" />
+        {/* <img src={Profile_Icon} alt="" /> */}
         <h1><span>I'm Fumika Mikami,</span> fronted developer based in Japan.</h1>
         <p>I am a fronted developer from .....</p>
         <div className="hero-action">
