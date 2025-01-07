@@ -4,7 +4,7 @@ import Profile_Icon from '../../assets/Profile_Icon.png'
 
 const Hero = () => {
   return (
-    <div className='hero'>
+    <div id="home" className='hero'>
         {/* <img src={Profile_Icon} alt="" /> */}
         <h1><span>I'm Fumika Mikami,</span> fronted developer based in Japan.</h1>
         <p>I am a fronted developer from .....</p>
