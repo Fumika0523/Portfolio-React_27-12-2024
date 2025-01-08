@@ -1,14 +1,15 @@
 import React from 'react'
 import './About.css'
 import profile_img1 from '../../assets/Profile_Icon.png'
-import profile_img from '../../assets/about_profile.svg'
+import theme_pattern from '../../assets/theme_pattern.svg'
+
 
 const About = () => {
   return (
     <div id="about" className='about'>
         <div className="about-title">
             <h1>About Me</h1>
-            {/* <img src={profile_img} alt="" /> */}
+            <img src={theme_pattern} alt="" />
         </div>
         <div className="about-sections">
             <div className="about-left">
