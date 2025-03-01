@@ -8,10 +8,10 @@ const Footer = () => {
     <>
      <div className="footer">
         <div className="footer-top">
-            <div className="footer-top-left">
+            {/* <div className="footer-top-left">
                 <img src={footer_logo} alt="" />
                 <p>I am Full Stack Developer based in Tokyo, Japan.</p>
-            </div>
+            </div> */}
             <div className="footer-top-right">
                 <div className="footer-email-input">
                     <img src={user_icon} alt="" />
